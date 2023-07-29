@@ -120,7 +120,7 @@ public class PaymentActivity extends AppCompatActivity implements PaymentResultL
         try {
             JSONObject options = new JSONObject();
 
-            options.put("name", "Choicemart");
+            options.put("name", " "); //include your project name here
             options.put("description", "Reference No. #123456");
             options.put("image", "https://s3.amazonaws.com/rzp-mobile/images/rzp.jpg");
            // options.put("order_id", "order_DBJOWzybf0sJbb");//from response of step 3.
@@ -129,7 +129,7 @@ public class PaymentActivity extends AppCompatActivity implements PaymentResultL
             options.put("currency", "INR");
             options.put("amount", String.valueOf(Double.parseDouble(grandTotal) * 100));
             options.put("prefill.email", "gaurav.kumar@example.com");
-            options.put("prefill.contact","9019803951");
+            options.put("prefill.contact"," "); //include your phone number here
             JSONObject retryObj = new JSONObject();
             retryObj.put("enabled", true);
             retryObj.put("max_count", 4);
