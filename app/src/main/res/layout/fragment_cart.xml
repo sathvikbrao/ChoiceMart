@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1ECC8"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/cartProductsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Content of cart_products.xml goes here -->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Fixed buttons at the bottom -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buy_now_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/login_button_bk"
+            android:layout_weight="1"
+            android:text="Buy Now" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cartEmptyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cart is Empty"
+
+        android:visibility="gone"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:padding="16dp" />
+
+</LinearLayout>

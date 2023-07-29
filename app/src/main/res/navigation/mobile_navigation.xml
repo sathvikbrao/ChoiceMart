@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.choicemart1.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.choicemart1.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.example.choicemart1.OrdersFragment"
+        android:label="Orders"
+        tools:layout="@layout/fragment_orders" />
+
+    <fragment
+        android:id="@+id/nav_electronic_appliances"
+        android:name="com.example.choicemart1.Electronic_appliances"
+        android:label="Electronic Appliances"
+        tools:layout="@layout/fragment_electronic_appliances" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.choicemart1.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_book"
+        android:name="com.example.choicemart1.BookFragment"
+        android:label="Books"
+        tools:layout="@layout/fragment_book" />
+
+    <fragment
+        android:id="@+id/nav_clothes"
+        android:name="com.example.choicemart1.ClothFragment"
+        android:label="Clothes"
+        tools:layout="@layout/fragment_cloth" />
+
+    <fragment
+        android:id="@+id/nav_accessories"
+        android:name="com.example.choicemart1.AcessoriesFragment"
+        android:label="Accessories"
+        tools:layout="@layout/fragment_acessories" />
+
+    <fragment
+        android:id="@+id/nav_ProductDetails"
+        android:name="com.example.choicemart1.ProductDetailFragment"
+        android:label="ProductDetails"
+        tools:layout="@layout/fragment_product_detail" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.choicemart1.CartFragment"
+        android:label="MyCart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/nav_HomeKitchen"
+        android:name="com.example.choicemart1.HomeKitchenFragment"
+        android:label="Home and  Kitchen"
+        tools:layout="@layout/fragment_home_kitchen" />
+</navigation>
