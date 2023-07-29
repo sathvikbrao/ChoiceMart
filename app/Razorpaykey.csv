@@ -1,2 +1,4 @@
 key_id,key_secret
 rzp_test_Ogqh3FkW8nnhJKvy,gqh-hOU6QRn00fFg-gGUdbQGVVD783
+
+//The above key is not the actual razorpay key ,create your razorpay key by creating a account in razorpay.com and include the csv file that you get to download there 
